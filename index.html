@@ -18,18 +18,23 @@
         color: #ecf0f1;
       }
 
-      .about-us-card > .mdl-card__title {
-        background-color: #9b59b6;
+      .mdl-card__title {
         height: 110px;
       }
 
-      .material-design > .mdl-card__title {
-        height: 110px;
+      .about-us-card {
+        background-color: #9b59b6;
+      }
+
+      .about-us-card > .mdl-card__supporting-text {
+        color: #ecf0f1;
+      }
+
+      .material-design-card > .mdl-card__title {
         background-color: #e74c3c;
       }
 
-      .announcements > .mdl-card__title {
-        height: 110px;
+      .announcements-sign-up-card > .mdl-card__title {
         background-color: #3498db;
       }
     </style>
@@ -48,42 +53,61 @@
           <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
             <div class="mdl-card mdl-shadow--2dp full-width-card about-us-card">
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">About Us</h2>
+                <h2 class="mdl-card__title-text">What Purpose Will We Serve?</h2>
               </div>
               <div class="mdl-card__supporting-text">
-                Project Insight is a new way to visualize project managment data
-                such as remaining tasks, time logged, what your team is doing
-                and customizing the workflows for different types of working tasks
-                making it not just insightful for development (like a lot of
-                current offerings) but for any purpose that you want it to fill.
+                We are building a modern and customizable take on standard task
+                tracking and other project management related details. We feel
+                the current offereings, as amazing as they are, are just missing
+                that one feature that would put them over the top and we plan to
+                deliver not just a project management tool that lets you track
+                tasks, but efficiently and easily track time spent (which is a
+                resource of it's own) and better plan the future of your
+                project.
+                <br /><br />
+                We plan to bring you the <em>insight</em> you expect when
+                managing your <em>projects</em>!
               </div>
             </div>
           </div>
         </div>
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-phone"></div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone">
-            <div class="mdl-card mdl-shadow--2dp full-width-card material-design">
+          <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-phone">
+            <div class="mdl-card mdl-shadow--2dp full-width-card material-design-card">
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Material Design</h2>
+                <h2 class="mdl-card__title-text">How Will It Look?</h2>
               </div>
               <div class="mdl-card__supporting-text">
-                We will be using Google's <a href="http://getmdl.io">Material
-                Design Lite</a> library and Material Design concept to build a
-                simple interface to enable our users.
+                We plan to leverage the concepts set forth with the
+                <a href="https://www.google.com/design/spec/material-design/introduction.html">Material Design</a>
+                concepts to bring a clean, visually appealing and modern user
+                experience that will be built with the idea in mind of empowering
+                not just the project managers but the people who will be
+                consuming the tasks as well. We aspire to make the experience
+                pleasant for all users, regardless of role. To helps us achieve
+                this visual look we will be using the <a href="http://getmdl.io">Material
+                Design Lite</a> JavaScript framework.
+                <br /><br />
+                Aside from just the visuals, we plan to leverage great technologies
+                from other companies to make the site responsive to interactions
+                and update without the need for user iteraction allowing your
+                team to remain in sync with one another easily.
               </div>
             </div>
           </div>
-          <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone">
-            <form class="mdl-card mdl-shadow--2dp full-width-card announcements validate" action="//scorpions.us11.list-manage.com/subscribe/post?u=337e9e0177baf07f4106fbfa0&amp;id=497c79219b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">
+            <form class="mdl-card mdl-shadow--2dp full-width-card announcements-sign-up-card validate" action="//scorpions.us11.list-manage.com/subscribe/post?u=337e9e0177baf07f4106fbfa0&amp;id=497c79219b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
               <div class="mdl-card__title">
-                <h2 class="mdl-card__title-text">Announcements</h2>
+                <h2 class="mdl-card__title-text">Interested In Project Insight?</h2>
               </div>
               <div class="mdl-card__supporting-text">
                 <div id="mce-responses" class="clear">
               		<div class="response" id="mce-error-response" style="display:none"></div>
               		<div class="response" id="mce-success-response" style="display:none"></div>
               	</div>
+                Register with our mailing lists for updates like when the beta
+                testing process will begin or when we launch!
                 <div class="mdl-textfield mdl-js-textfield">
                   <input class="mdl-textfield__input" type="text" id="email" name="EMAIL" />
                   <label class="mdl-textfield__label" for="email">Email...</label>
@@ -92,7 +116,7 @@
               </div>
               <div class="mdl-card__actions mdl-card--border">
                 <button class="mdl-button mdl-js-button mdl-button--colored mdl-js-ripple-effect">
-                  Sign Up
+                  Notify Me!
                 </button>
               </div>
             </form>
