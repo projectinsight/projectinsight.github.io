@@ -1,6 +1,6 @@
 module.exports = {
   target: "web",
-  entry: "./src",
+  entry: ["babel-polyfill", "./src"],
   output: {
     path: __dirname,
     filename: "app.js"
